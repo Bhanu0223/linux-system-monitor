@@ -20,7 +20,7 @@ This project provides a simple Linux shell script to monitor system resources.
 ## How to Run
 
 ```bash
-https://github.com/Bhanu0223/linux-system-monitor.git
+https://github.com/Bhanu0223/linux-system-monitor
 cd linux-system-monitor
 chmod +x system_stats.sh
 ./system_stats.sh
