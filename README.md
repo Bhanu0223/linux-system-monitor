@@ -1,6 +1,8 @@
 # linux-system-monitor
 A Linux system monitoring script showing CPU, memory, disk usage, and top processes
 
+https://roadmap.sh/projects/server-stats
+
 # Linux System Monitoring Script
 
 This project provides a simple Linux shell script to monitor system resources.
@@ -20,7 +22,7 @@ This project provides a simple Linux shell script to monitor system resources.
 ## How to Run
 
 ```bash
-https://github.com/Bhanu0223/linux-system-monitor
+https://github.com/Bhanu0223/linux-system-monitor.git
 cd linux-system-monitor
 chmod +x system_stats.sh
 ./system_stats.sh
