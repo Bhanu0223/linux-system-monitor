@@ -1,0 +1,2 @@
+*/5 * * * * root /app/system_stats.sh >> /var/log/system_stats.log 2>&1
+

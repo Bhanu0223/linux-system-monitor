@@ -1,0 +1,22 @@
+pipeline {  
+    agent any
+
+    stages {
+        stage ('checkout') {
+            steps {
+                git 'https://github.com/Bhanu0223/linux-system-monitor.git'
+            }
+        }
+        stage ('Build') {
+            steps {
+                sh 'docker build -t system-monitor .'
+            }
+        }
+        stage ('Run Container') {
+            steps {
+                sh 'docker run -d --rm system-monitor'
+            }
+        }
+
+    }
+}
